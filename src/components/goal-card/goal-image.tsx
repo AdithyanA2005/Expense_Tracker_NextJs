@@ -24,7 +24,7 @@ export function GoalImage({ imageId }: GoalImageProps) {
           fill
           src={imageUrl}
           alt="Goal"
-          className="bg-sky-500 object-cover object-center"
+          className="bg-muted object-cover object-center"
           onError={() => setImageUrl(null)}
         />
       ) : (
